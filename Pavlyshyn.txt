@@ -1,4 +1,6 @@
-name = ARGV.first || "World"
+//Default is World
+//Author: Dmytro Pavlyshyn
+name = ARGV.first || "World
 //I have added a comment
 puts "Hello, #{name}!"
 
