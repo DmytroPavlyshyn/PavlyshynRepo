@@ -1,6 +1,7 @@
+require 'greeter'
 //Default is World
-//Author: Dmytro Pavlyshyn
-name = ARGV.first || "World
-//I have added a comment
-puts "Hello, #{name}!"
 
+name = ARGV.first || "World
+
+greeter = Greeter.new(name)
+puts greeter.greet
